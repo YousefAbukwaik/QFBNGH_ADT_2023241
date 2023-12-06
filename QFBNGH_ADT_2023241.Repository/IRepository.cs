@@ -2,6 +2,7 @@
 
 namespace QFBNGH_ADT_2023241.Repository
 {
+
     public interface IRepository<T> where T : class
     {
         void Create(T obj);
@@ -10,4 +11,5 @@ namespace QFBNGH_ADT_2023241.Repository
         void Update(T obj);
         void Delete(int id);
     }
+
 }
