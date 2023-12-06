@@ -341,6 +341,7 @@ namespace QFBNGH_ADT_2023241.Client
         }
         private static void VanToConsole(IEnumerable<Van> input)
         {
+
             foreach (var item in input)
             {
                 Console.WriteLine($"Id: {item.Id}, MotorName: {item.VanName}, MotorType: {item.VanType}, BrandId: {item.Brand_id}");
