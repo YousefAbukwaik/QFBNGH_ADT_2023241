@@ -19,11 +19,7 @@ namespace QFBNGH_ADT_2023241.Client
         }
 
 
-        
-       public void testinggg()
-        {
-             
-        }
+
         
         private void Init(string baseurl)
         {
