@@ -26,9 +26,10 @@ namespace QFBNGH_ADT_2023241.Client
                .Add("non-CRUD methods", () => NonCrudMenu())
                .Add("Exit", ConsoleMenu.Close);
             menu.Show();
+
         }
 
-    private static void CrudMenu()
+        private static void CrudMenu()
         {
 
 
@@ -40,6 +41,7 @@ namespace QFBNGH_ADT_2023241.Client
                 .Add("Delete element", DeletePreMenu)
                 .Add("Exit", ConsoleMenu.Close);
             menu.Show();
+
         }
         private static void NonCrudMenu()
         {
@@ -51,6 +53,7 @@ namespace QFBNGH_ADT_2023241.Client
                .Add("Get Brands where renter is male", GetBrandWhereGenderIsMale)
                .Add("Exit", ConsoleMenu.Close);
             menu.Show();
+
         }
 
         private static void PreMenu(Action RentVan, Action Van, Action Brand)
