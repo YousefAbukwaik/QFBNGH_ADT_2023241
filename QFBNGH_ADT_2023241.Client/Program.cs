@@ -119,6 +119,7 @@ namespace QFBNGH_ADT_2023241.Client
 
         private static void ReadBrand()
         {
+
             Console.WriteLine("Search for desired with an Id of: ");
             int id = int.Parse(Console.ReadLine());
             var getBrand = rserv.Get<Brand>(id, "Brand");
