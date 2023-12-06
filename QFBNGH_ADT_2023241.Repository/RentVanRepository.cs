@@ -33,5 +33,7 @@ namespace QFBNGH_ADT_2023241.Repository
             db.Remove(Read(id));
             db.SaveChanges();
         }
+
+
     }
 }
