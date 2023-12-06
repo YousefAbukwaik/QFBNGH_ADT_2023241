@@ -11,8 +11,9 @@ using System.Threading.Tasks;
 
 namespace QFBNGH_ADT_2023241.Client
 {
-    public class Program 
+    public class Program
     {
+
         //static public VanDBContext vanDBContext = new VanDBContext();
         public static RestService rserv = new RestService("http://localhost:21071");
         static void Main(string[] args)
@@ -27,7 +28,7 @@ namespace QFBNGH_ADT_2023241.Client
             menu.Show();
         }
 
-        private static void CrudMenu()
+    private static void CrudMenu()
         {
 
             var menu = new ConsoleMenu()
