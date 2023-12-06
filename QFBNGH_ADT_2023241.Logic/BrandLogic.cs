@@ -18,11 +18,13 @@ namespace QFBNGH_ADT_2023241.Logic
         IRepository<Van> vanRepo;
         IRepository<RentVan> rentvanRepo;
 
+      
+
         public BrandLogic(IRepository<Brand> brandRepo, IRepository<Van> vanRepo, IRepository<RentVan> rentvanRepo)
         {
             this.brandRepo = brandRepo;
             this.vanRepo = vanRepo;
-            this.rentvanRepo = rentvanRepo;
+           this.rentvanRepo = rentvanRepo;
         }
 
         public void Create(Brand obj)
