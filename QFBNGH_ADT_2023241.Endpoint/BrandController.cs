@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 
 namespace QFBNGH_ADT_2023241.Endpoint.Controllers
 
+
 {
     [Route("[controller]")]
     [ApiController]
     public class BrandController : ControllerBase
     {
         IBrandLogic logic;
-
         public BrandController(IBrandLogic logic)
         {
             this.logic = logic;
@@ -53,5 +53,7 @@ namespace QFBNGH_ADT_2023241.Endpoint.Controllers
             var BrandToDelete = this.logic.Read(id);
             logic.Delete(id);
         }
+
+
     }
 }
