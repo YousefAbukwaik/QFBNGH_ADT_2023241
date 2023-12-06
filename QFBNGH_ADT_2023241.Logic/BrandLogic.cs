@@ -63,7 +63,7 @@ namespace QFBNGH_ADT_2023241.Logic
                     on Vans.Brand_id equals Brands.Id
                     where RentVans.BuyerName == "Sanya"
                     select Brands;
-            return true;
+            return q;
         }
 
         public IEnumerable<Brand> GetBrandWhereGenderIsMale()
