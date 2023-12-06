@@ -20,7 +20,7 @@ namespace QFBNGH_ADT_2023241.Client
 
 
 
-        
+
         private void Init(string baseurl)
         {
             client = new HttpClient();
@@ -39,7 +39,9 @@ namespace QFBNGH_ADT_2023241.Client
             }
 
         }
-      
+
+
+
 
 
         public List<T> Get<T>(string endpoint)
