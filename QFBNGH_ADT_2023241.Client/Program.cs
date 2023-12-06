@@ -324,13 +324,6 @@ namespace QFBNGH_ADT_2023241.Client
 
 
 
-
-
-
-
-
-
-
         ////-------------------------------------------------------------------------------------------------------------ToConsole------------------------------------------------
         private static void RentVanToConsole(IEnumerable<RentVan> input)
         {
