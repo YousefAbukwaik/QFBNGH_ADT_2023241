@@ -11,8 +11,6 @@ namespace QFBNGH_ADT_2023241.Models
 {
     public class RentVan
     {
-
-
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
