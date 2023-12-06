@@ -19,6 +19,7 @@ namespace QFBNGH_ADT_2023241.Repository
         }
         public override void Update(Van obj)
         {
+
             var oldVan = Read(obj.Id);
             oldVan.Id = obj.Id;
             oldVan.VanName = obj.VanName;
@@ -32,6 +33,7 @@ namespace QFBNGH_ADT_2023241.Repository
             oldVan.IsElectricVan = obj.IsElectricVan;
             oldVan.Brand_id = obj.Brand_id;
             db.SaveChanges();
+
         }
         public override void Delete(int id)
         {
