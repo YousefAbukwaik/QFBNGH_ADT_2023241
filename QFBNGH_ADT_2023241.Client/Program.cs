@@ -31,6 +31,7 @@ namespace QFBNGH_ADT_2023241.Client
     private static void CrudMenu()
         {
 
+
             var menu = new ConsoleMenu()
                 .Add("Create element", CreatePreMenu)
                 .Add("Get one element", ReadPreMenu)
