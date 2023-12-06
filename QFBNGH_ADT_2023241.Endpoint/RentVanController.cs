@@ -21,12 +21,12 @@ namespace QFBNGH_ADT_2023241.Endpoint.Controllers
             this.rentvanlogic = rentvanlogic;
         }
 
-
         [HttpGet]
         public IEnumerable<RentVan> Get()
         {
             return rentvanlogic.ReadAll();
         }
+
 
         [HttpGet("{id}")]
         public RentVan Get(int id)
