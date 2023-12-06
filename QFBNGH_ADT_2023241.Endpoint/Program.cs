@@ -14,7 +14,7 @@ namespace QFBNGH_ADT_2023241.Endpoint
         public static void Main(string[] args)
         {
 
-            //Console.WriteLine("hello");
+           
             CreateHostBuilder(args).Build().Run();
         }
 
