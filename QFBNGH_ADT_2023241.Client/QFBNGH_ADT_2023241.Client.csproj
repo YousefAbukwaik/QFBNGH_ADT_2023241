@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin - Copy\**" />
+    <Compile Remove="obj - Copy\**" />
+    <EmbeddedResource Remove="bin - Copy\**" />
+    <EmbeddedResource Remove="obj - Copy\**" />
+    <None Remove="bin - Copy\**" />
+    <None Remove="obj - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConsoleMenu-simple" Version="2.6.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Refit" Version="7.0.0" />
+    <PackageReference Include="SimpleConsole" Version="1.0.94" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QFBNGH_ADT_2023241.Logic\QFBNGH_ADT_2023241.Logic.csproj" />
+    <ProjectReference Include="..\QFBNGH_ADT_2023241.Models\QFBNGH_ADT_2023241.Models.csproj" />
+    <ProjectReference Include="..\QFBNGH_ADT_2023241.Repository\QFBNGH_ADT_2023241.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
