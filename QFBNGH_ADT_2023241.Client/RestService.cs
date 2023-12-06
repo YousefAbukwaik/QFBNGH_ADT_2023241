@@ -17,30 +17,7 @@ namespace QFBNGH_ADT_2023241.Client
             Init(baseurl);
         }
 
-        //private async Task Init(string baseurl)
-        //{
-        //    if (!Uri.TryCreate(baseurl, UriKind.Absolute, out _))
-        //    {
-        //        throw new ArgumentException("Invalid base URL!");
-        //    }
 
-        //    using (HttpClient client = new HttpClient())
-        //    {
-        //        client.BaseAddress = new Uri(baseurl);
-        //        client.DefaultRequestHeaders.Accept.Clear();
-        //        client.DefaultRequestHeaders.Accept.Add(
-        //            new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-
-        //        try
-        //        {
-        //            await client.GetAsync("");
-        //        }
-        //        catch (HttpRequestException)
-        //        {
-        //            throw new ArgumentException("Endpoint is not available!");
-        //        }
-        //    }
-        // }
         
        public void testinggg()
         {
