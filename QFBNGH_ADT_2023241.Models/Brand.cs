@@ -11,6 +11,8 @@ namespace QFBNGH_ADT_2023241.Models
 {
     public class Brand
     {
+
+
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
