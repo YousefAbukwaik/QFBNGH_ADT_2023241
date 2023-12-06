@@ -12,6 +12,7 @@ namespace QFBNGH_ADT_2023241.Repository
         public BrandRepository(VanDBContext db) : base(db)
         {
         }
+
         public override Brand Read(int id)
         {
             return ReadAll().SingleOrDefault(x => x.Id == id);
@@ -31,5 +32,6 @@ namespace QFBNGH_ADT_2023241.Repository
             db.Remove(Read(id));
             db.SaveChanges();
         }
+
     }
 }
