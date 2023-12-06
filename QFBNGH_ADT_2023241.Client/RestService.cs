@@ -14,6 +14,7 @@ namespace QFBNGH_ADT_2023241.Client
 
         public RestService(string baseurl)
         {
+
             Init(baseurl);
         }
 
